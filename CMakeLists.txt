@@ -3,4 +3,4 @@ project(exercises)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(exercises main.cpp library.cpp library.h AvlNode.cpp AvlNode.h AvlTree.cpp AvlTree.h)
+add_executable(exercises LinkedList.cpp library.cpp library.h AvlNode.cpp AvlNode.h AvlTree.cpp AvlTree.h)
