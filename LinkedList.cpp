@@ -11,7 +11,7 @@ public:
         next=NULL;
     }
 };
-class Solution{
+class LinkedList{
 public:
 
     Node* insert(Node *head,int data)
@@ -37,16 +37,17 @@ public:
         }
     }
 };
-int main()
-{
-    Node* head=NULL;
-    Solution mylist;
-    int T,data;
-    cin>>T;
-    while(T-->0){
-        cin>>data;
-        head=mylist.insert(head,data);
-    }
-    mylist.display(head);
 
-}
+//int main()
+//{
+//    Node* head=NULL;
+//    LinkedList mylist;
+//    int T,data;
+//    cin>>T;
+//    while(T-->0){
+//        cin>>data;
+//        head=mylist.insert(head,data);
+//    }
+//    mylist.display(head);
+//
+//}
